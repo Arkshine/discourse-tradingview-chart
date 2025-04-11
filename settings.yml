@@ -1,2 +1,23 @@
-example_setting:
-  default: true
+default_chart_options:
+  type: string
+  textarea: true
+  default: |
+    {
+      "autosize": true,
+      "symbol": "NASDAQ:AAPL",
+      "interval": "D",
+      "timezone": "Etc/UTC",
+      "theme": "light",
+      "style": "1",
+      "locale": "en",
+      "allow_symbol_change": true,
+      "show_popup_button": true,
+      "popup_width": "1000",
+      "popup_height": "650",
+      "support_host": "https://www.tradingview.com"
+    }
+
+allowed_groups:
+  type: list
+  list_type: group
+  default: "1|2"

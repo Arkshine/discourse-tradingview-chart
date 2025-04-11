@@ -1,5 +1,5 @@
 {
-  "name": "discourse-realtime-chart",
+  "name": "discourse-tradingview-chart",
   "component": true,
   "authors": "Arkshine",
   "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
@@ -8,6 +8,10 @@
   "theme_version": "0.0.1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {},
-  "modifiers": {}
+  "modifiers": {
+    "csp_extensions": [
+      "script_src: https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+    ],
+    "svg_icons": ["chart-simple"]
+  }
 }

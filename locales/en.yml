@@ -1,5 +1,6 @@
 en:
   theme_metadata:
-    description: ''
+    description: ""
     settings:
-      example_setting: A description of a setting.
+      default_chart_options: "Default Tradview options are used when inserting a new chart."
+  tradingview: "tradingView"
